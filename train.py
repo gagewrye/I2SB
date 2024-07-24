@@ -26,9 +26,6 @@ from corruption import build_corruption
 from dataset import imagenet
 from i2sb import Runner, download_ckpt
 
-import colored_traceback.always
-from ipdb import set_trace as debug
-
 RESULT_DIR = Path("results")
 
 def set_seed(seed):
