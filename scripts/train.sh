@@ -1,6 +1,6 @@
 
 # change this variable to match your machine.
-N_GPU=8
+N_GPU=1
 
 # JPEG restoration
 python train.py --n-gpu-per-node $N_GPU --beta-max 0.3 --corrupt jpeg-5

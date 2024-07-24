@@ -30,7 +30,8 @@ Visualization of the generation processes of **I<sup>2</sup>SB** are shown below
 
 This code is developed with Python3, and we recommend PyTorch >=1.11. Install the dependencies with [Anaconda](https://www.anaconda.com/products/individual) and activate the environment `i2sb` with
 ```bash
-conda env create --file requirements.yaml python=3
+conda config --set channel_priority flexible
+conda env create --file requirements.yaml
 conda activate i2sb
 ```
 
